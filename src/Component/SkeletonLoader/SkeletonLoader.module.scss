@@ -1,0 +1,20 @@
+.Card{
+  width: 100%;
+  height: 150px;
+  background-color: #ededed;
+  margin: 2em 0;
+  display: flex;
+  padding: .5em;
+  border-radius: 5px;
+
+  &Info{
+    flex: 1;
+    padding: 1em ;
+
+    &Extra{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}

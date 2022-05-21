@@ -1,0 +1,40 @@
+.Card{
+  display: flex;
+  background-color: #ededed;
+  margin: 2em 0;
+  border-radius: 5px;
+  width: 100%;
+
+  img{
+    width: 150px;
+    height: 150px;
+    background-color: #ededed;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+
+  &Info{
+    padding: 0 2em;
+    flex: 1;
+
+    div{
+      margin-top: .5em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  h2, p{
+    margin: 0;
+  }
+
+  h2{
+    margin: .5em 0;
+  }
+
+  p{
+    height: 55px;
+    overflow-y: auto;
+  }
+}
